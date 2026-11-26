@@ -1,0 +1,16 @@
+IMUNO 2.0 — MISSÃO IMUNIDADE / CODENAMES
+
+PUBLICAÇÃO COMPLETA (ONLINE + PRESENCIAL)
+1. Extraia o ZIP completo. Crie um repositório no GitHub (pode ser privado).
+2. Envie os arquivos e pastas extraídos à raiz do repositório. Preserve public/, netlify/, package.json e netlify.toml. Não envie somente o index.html.
+3. No Netlify: Add new project > Import an existing project > GitHub. Escolha o repositório. O netlify.toml informa a pasta public e as funções.
+4. Publique. O Netlify instala as dependências automaticamente. Não é necessário instalar Node no seu computador ou criar um Supabase.
+5. Abra o site publicado, clique em Sala online > Criar sala como professor. Compartilhe o link ou QR da função correta, nunca o convite dos mestres com os jogadores.
+6. Teste com dois navegadores/dispositivos: mestre envia pista; equipe da vez escolhe cartas; projeção acompanha. Sincronização por consulta a cada 2,5 segundos enquanto a aba está visível.
+
+PUBLICAÇÃO SIMPLES (PRESENCIAL)
+Use o ZIP IMUNO_2_Netlify_Drop.zip separado. Extraia e arraste a pasta inteira ao https://app.netlify.com/drop. Não precisa de banco, GitHub nem Node. A opção online informa que o serviço precisa ser publicado com funções. O jogo presencial continua funcionando.
+
+REGRAS: 25 palavras, 40 mapas do kit, duas equipes (9 e 8 agentes), sete neutros, um assassino. Pista de uma palavra e número, uma tentativa adicional opcional; escolher neutro/adversário encerra vez; assassino encerra partida. O mestre valida associações. O modo professor oferece placar, relatório CSV do registro recente e projeção somente leitura.
+
+PRIVACIDADE E LIMITES: salas expiram para uso após 24h; os registros podem permanecer no Netlify Blobs até limpeza administrativa. Não coleta nomes, emails ou dados de alunos. Links são credenciais de função: qualquer pessoa que receba um convite pode usar aquela função. Não publique os convites secretos. No modo presencial, a separação do mapa é visual, não autenticação. No modo online, o mapa completo fica no servidor e só é enviado aos mestres/professor; os mapas originais são públicos, portanto não é proteção antifraude absoluta. Não use como avaliação de alta relevância sem supervisão. O serviço usa recursos e limites do plano Netlify; acompanhe o consumo. O modo online é candidato a validação no deploy real: testes locais do motor e da interface não confirmam o funcionamento do serviço de nuvem.
